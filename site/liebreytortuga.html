@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Lecturas</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/estilos.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.5.2.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Molengo_400.font.js"></script>
+<script type="text/javascript" src="js/Expletus_Sans_400.font.js"></script><script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+</head>
+
+<body id="page5">
+	<div class="body1">
+		<img id="image" src="images/bg_top_img2.jpg"/>
+		<div class="main">
+<!-- header -->
+			<header>
+				<div class="wrapper">
+					<nav>
+						<ul id="menu">
+							<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+								<li><a href="index.html">Inicio</a></li>
+								<li><a href="Leccion2.html">Los Números</a></li>
+								<li><a href="animales.html">Los Animales</a></li>
+								<li><a href="lectura.html">Lecturas</a></li>
+								<li><a href="suma.html">Suma</a></li>
+								<li><a href="resta.html">Resta</a></li>
+								<li><a href="Leccion3.html">Evaluación</a></li>
+						</ul>
+					</nav>
+
+				</div>
+
+				<div id="slogan">
+					<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+					Aprende a leer divirtiendote<span>con Pocoyo y sus amigos!</span>
+				</div>
+
+			</header>
+		</div>
+	</div>
+	<div class="cuerpo3">
+		<img id="image" src="images/lecciones/bg-lecciones.jpg"/>
+		<div class="relatosbg">
+			<audio src="relatos/liebre_tortuga.mp3" controls>
+				<button id="boton">Play</button>
+			</audio>
+			<div class="cuentos" id="full">
+				<img src="images/cuentos/liebreytortuga.jpg"/>
+				<h3>La Liebre y la Tortuga</h3>
+				<div id="texto"><p>En el mundo de los animales vivía una liebre muy orgullosa y vanidosa, que no cesaba de pregonar que ella era la más veloz y se burlaba de ello ante la lentitud de la tortuga.<br><br>
+
+				- ¡Eh, tortuga, no corras tanto que nunca vas a llegar a tu meta! Decía la liebre riéndose de la tortuga.<br><br>
+
+				Un día, a la tortuga se le ocurrió hacerle una inusual apuesta a la liebre:<br><br>
+
+				- Estoy segura de poder ganarte una carrera.<br><br>
+
+				- ¿A mí? Preguntó asombrada la liebre.<br><br>
+
+				- Sí, sí, a ti, dijo la tortuga. Pongamos nuestras apuestas y veamos quién gana la carrera.<br><br>
+
+				La liebre, muy engreída, aceptó la apuesta.<br><br>
+
+				Así que todos los animales se reunieron para presenciar la carrera. El búho señaló los puntos de partida y de llegada, y sin más preámbulos comenzó la carrera en medio de la incredulidad de los asistentes.<br><br>
+
+				Astuta y muy confiada en si misma, la liebre dejó coger ventaja a la tortuga y se quedó haciendo burla de ella. Luego, empezó a correr velozmente y sobrepasó a la tortuga que caminaba despacio, pero sin parar. Sólo se detuvo a mitad del camino ante un prado verde y frondoso, donde se dispuso a descansar antes de concluir la carrera. Allí se quedó dormida, mientras la tortuga siguió caminando, paso tras paso, lentamente, pero sin detenerse.<br><br>
+
+				Cuando la liebre se despertó, vio con pavor que la tortuga se encontraba a una corta distancia de la meta. En un sobresalto, salió corriendo con todas sus fuerzas, pero ya era muy tarde: ¡la tortuga había alcanzado la meta y ganado la carrera!<br><br>
+
+				Ese día la liebre aprendió, en medio de una gran humillación, que no hay que burlarse jamás de los demás. También aprendió que el exceso de confianza es un obstáculo para alcanzar nuestros objetivos. Y que nadie, absolutamente nadie, es mejor que nadie<br><br>
+
+
+
+				FIN</p></div>
+			</div>
+		</div>
+	</div>
+	<script src="js/slider.js"></script>
+<script type="text/javascript"> Cufon.now(); </script>
+<script>
+var boton = document.getElementById("boton");
+boton.addEventListener("click", function(){
+  if (!sound) {
+    v.play();
+    this.innerHTML = "Pause";
+    sound = true;
+  } else {
+    v.pause();
+    this.innerHTML = "Play";
+    sound = false;
+  }
+});
+</script>
+
+</body>
+</html>

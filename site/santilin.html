@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Lecturas</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/estilos.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.5.2.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Molengo_400.font.js"></script>
+<script type="text/javascript" src="js/Expletus_Sans_400.font.js"></script><script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+</head>
+
+<body id="page5">
+	<div class="body1">
+		<img id="image" src="images/bg_top_img2.jpg"/>
+		<div class="main">
+<!-- header -->
+			<header>
+				<div class="wrapper">
+					<nav>
+						<ul id="menu">
+							<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+								<li><a href="index.html">Inicio</a></li>
+
+								<li><a href="Leccion2.html">Los Números</a></li>
+								<li><a href="animales.html">Los Animales</a></li>
+								<li><a href="lectura.html">Lecturas</a></li>
+								<li><a href="suma.html">Suma</a></li>
+								<li><a href="resta.html">Resta</a></li>
+								<li><a href="Leccion3.html">Evaluación</a></li>
+						</ul>
+					</nav>
+
+				</div>
+
+				<div id="slogan">
+					<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+					Aprende a leer divirtiendote<span>con Pocoyo y sus amigos!</span>
+				</div>
+
+			</header>
+		</div>
+	</div>
+	<div class="cuerpo3">
+		<img id="image" src="images/lecciones/bg-lecciones.jpg"/>
+		<div class="relatosbg">
+			<audio src="relatos/santilin.mp3" controls>
+				<button id="boton">Play</button>
+			</audio>
+			<div class="cuentos" id="full">
+				<img src="images/cuentos/santilin.jpg"/>
+				<h3>Santilín</h3>
+				<div id="texto"><p>Santilin es un osito muy inteligente, bueno y respetuoso. Todos lo quieren mucho, y sus amiguitos disfrutan jugando con él porque es muy divertido.<br><br>
+
+				Le gusta dar largos paseos con su compañero, el elefantito. Después de la merienda se reúnen y emprenden una larga caminata charlando y saludando a las mariposas que revolotean coquetas, desplegando sus coloridas alitas.<br><br>
+
+				Siempre está atento a los juegos de los otros animalitos. Con mucha paciencia trata de enseñarles que pueden entretenerse sin dañar las plantas, sin pisotear el césped, sin destruir lo hermoso que la naturaleza nos regala.<br><br>
+
+				Un domingo llegaron vecinos nuevos. Santilin se apresuró a darles la bienvenida y enseguida invitó a jugar al puercoespín más pequeño.<br><br>
+
+				Lo aceptaron contentos hasta que la ardillita, llorando, advierte:<br><br>
+
+				- Ay, cuidado, no se acerquen, esas púas lastiman.<br><br>
+
+				El puercoespín pidió disculpas y triste regresó a su casa. Los demás se quedaron afligidos, menos Santilin, que estaba seguro de encontrar una solución.<br><br>
+
+				Pensó y pensó, hasta que, risueño, dijo:<br><br>
+
+				- Esperen, ya vuelvo.<br><br>
+
+				Santilin regresó con la gorra de su papá y llamó al puercoespín.<br><br>
+
+				Le colocaron la gorra sobre el lomo y, de esta forma tan sencilla, taparon las púas para que no los pinchara y así pudieran compartir los juegos.<br><br>
+
+				Tan contentos estaban que, tomados de las manos, formaron una gran ronda y cantaron felices.<br><br>
+
+				FIN</p></div>
+			</div>
+		</div>
+	</div>
+	<script src="js/slider.js"></script>
+<script type="text/javascript"> Cufon.now(); </script>
+<script>
+var boton = document.getElementById("boton");
+boton.addEventListener("click", function(){
+  if (!sound) {
+    v.play();
+    this.innerHTML = "Pause";
+    sound = true;
+  } else {
+    v.pause();
+    this.innerHTML = "Play";
+    sound = false;
+  }
+});
+</script>
+</body>
+</html>

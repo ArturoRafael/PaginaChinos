@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>full</title>
+<link rel="stylesheet" href="sti.css" type="text/css" media="all">
+</head>
+<body>
+<div class="completa"> Div Contents 
+</div>
+<input id="Button2" type="button" value="Hide DIV" onclick="manageDIV('myDIV1','normal')" />
+<input id="Button1" type="button" value="Fill Page" onclick="manageDIV('myDIV1','completa')" />
+<script type="text/javascript">
+	var divObj = document.getElementById(div);
+
+	function manageDIV(div, className) {
+		divObj.className = className;
+	}
+</script>
+</body>
+</html>

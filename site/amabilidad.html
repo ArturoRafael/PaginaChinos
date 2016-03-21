@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Lecturas</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/estilos.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.5.2.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Molengo_400.font.js"></script>
+<script type="text/javascript" src="js/Expletus_Sans_400.font.js"></script><script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+</head>
+
+<body id="page5">
+	<div class="body1">
+		<img id="image" src="images/bg_top_img2.jpg"/>
+		<div class="main">
+<!-- header -->
+			<header>
+				<div class="wrapper">
+					<nav>
+						<ul id="menu">
+							<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+								<li><a href="index.html">Inicio</a></li>								
+								<li><a href="Leccion2.html">Los Números</a></li>
+								<li><a href="animales.html">Los Animales</a></li>
+								<li><a href="lectura.html">Lecturas</a></li>
+								<li><a href="suma.html">Suma</a></li>
+								<li><a href="resta.html">Resta</a></li>
+								<li><a href="Leccion3.html">Evaluación</a></li>
+						</ul>
+					</nav>
+
+				</div>
+
+				<div id="slogan">
+					<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+					Aprende a leer divirtiendote<span>con Pocoyo y sus amigos!</span>
+				</div>
+
+			</header>
+		</div>
+	</div>
+	<div class="cuerpo3">
+		<img id="image" src="images/lecciones/bg-lecciones.jpg"/>
+		<div class="relatosbg">
+			<audio src="relatos/daniel.mp3" controls>
+				<button id="boton">Play</button>
+			</audio>
+			<div class="cuentos" id="full">
+				<img src="images/cuentos/amabilidad.jpg"/>
+
+				<h3>Daniel y las palabras mágicas</h3>
+				<div id="texto"><p>Te presento a Daniel, el gran mago de las palabras. El abuelo de Daniel es muy aventurero y este año le ha enviado desde un país sin nombre, por su cumpleaños, un regalo muy extraño: una caja llena de letras brillantes.<br><br>
+
+				En una carta, su abuelo le dice que esas letras forman palabras amables que, si las regalas a los demás, pueden conseguir que las personas hagan muchas cosas: hacer reír al que está triste, llorar de alegría, entender cuando no entendemos, abrir el corazón a los demás, enseñarnos a escuchar sin hablar.<br><br>
+
+				Daniel juega muy contento en su habitación, monta y desmonta palabras sin cesar.<br><br>
+
+				Hay veces que las letras se unen solas para formar palabras fantásticas, imaginarias, y es que Daniel es mágico, es un mago de las palabras.<br><br>
+
+				Lleva unos días preparando un regalo muy especial para aquellos que más quiere.<br><br>
+
+				Es muy divertido ver la cara de mamá cuando descubre por la mañana un buenos días, preciosa debajo de la almohada; o cuando papá encuentra en su coche un te quiero de color azul.<br><br>
+
+				Sus palabras son amables y bonitas, cortas, largas, que suenan bien y hacen sentir bien: gracias, te quiero, buenos días, por favor, lo siento, me gustas.<br><br>
+
+				Daniel sabe que las palabras son poderosas y a él le gusta jugar con ellas y ver la cara de felicidad de la gente cuando las oye.<br><br>
+
+				Sabe bien que las palabras amables son mágicas, son como llaves que te abren la puerta de los demás.<br><br>
+
+				Porque si tú eres amable, todo es amable contigo. Y Daniel te pregunta: ¿quieres intentarlo tú y ser un mago de las palabras amables?<br><br>
+
+				FIN</p></div>
+			</div>
+		</div>
+	</div>
+	<script src="js/slider.js"></script>
+<script type="text/javascript"> Cufon.now(); </script>
+<script>
+var boton = document.getElementById("boton");
+boton.addEventListener("click", function(){
+  if (!sound) {
+    v.play();
+    this.innerHTML = "Pause";
+    sound = true;
+  } else {
+    v.pause();
+    this.innerHTML = "Play";
+    sound = false;
+  }
+});
+</script>
+</body>
+</html>

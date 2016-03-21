@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Lecturas</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/estilos.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.5.2.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Molengo_400.font.js"></script>
+<script type="text/javascript" src="js/Expletus_Sans_400.font.js"></script><script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+</head>
+
+<body id="page5">
+	<div class="body1">
+		<img id="image" src="images/bg_top_img2.jpg"/>
+		<div class="main">
+<!-- header -->
+			<header>
+				<div class="wrapper">
+					<nav>
+						<ul id="menu">
+							<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+								<li><a href="index.html">Inicio</a></li>							
+								<li><a href="Leccion2.html">Los Números</a></li>
+								<li><a href="animales.html">Los Animales</a></li>
+								<li><a href="lectura.html">Lecturas</a></li>
+								<li><a href="suma.html">Suma</a></li>
+								<li><a href="resta.html">Resta</a></li>
+								<li><a href="Leccion3.html">Evaluación</a></li>
+						</ul>
+					</nav>
+
+				</div>
+
+				<div id="slogan">
+					<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+					Aprende a leer divirtiendote<span>con Pocoyo y sus amigos!</span>
+				</div>
+
+			</header>
+		</div>
+	</div>
+	<div class="cuerpo3">
+		<img id="image" src="images/lecciones/bg-lecciones.jpg"/>
+		<div class="relatosbg">
+			<audio src="relatos/caballo.mp3" controls>
+				<button id="boton">Play</button>
+			</audio>
+			<div class="cuentos" id="full">
+				<img src="images/cuentos/El-caballo-y-el-asno.jpg"/>
+				<h3>El Caballo y el Asno</h3>
+				<div id="texto"><p>Un hombre tenía un caballo y un asno.<br><br>
+
+				Un día que ambos iban camino a la ciudad, el asno, sintiéndose cansado, le dijo al caballo:<br><br>
+
+				- Toma una parte de mi carga si te interesa mi vida.<br><br>
+
+				El caballo haciéndose el sordo no dijo nada y el asno cayó víctima de la fatiga, y murió allí mismo.<br><br>
+
+				Entonces el dueño echó toda la carga encima del caballo, incluso la piel del asno. Y el caballo, suspirando dijo:<br><br>
+
+				- ¡Qué mala suerte tengo! ¡Por no haber querido cargar con un ligero fardo ahora tengo que cargar con todo, y hasta con la piel del asno encima!<br><br>
+
+				Cada vez que no tiendes tu mano para ayudar a tu prójimo que honestamente te lo pide, sin que lo notes en ese momento, en realidad te estás perjudicando a ti mismo.<br><br>
+
+				FIN</p></div>
+			</div>
+		</div>
+	</div>
+	<script src="js/slider.js"></script>
+<script type="text/javascript"> Cufon.now(); </script>
+<script>
+var boton = document.getElementById("boton");
+boton.addEventListener("click", function(){
+  if (!sound) {
+    v.play();
+    this.innerHTML = "Pause";
+    sound = true;
+  } else {
+    v.pause();
+    this.innerHTML = "Play";
+    sound = false;
+  }
+});
+</script>
+</body>
+</html>
